@@ -4,9 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Redirect mo to boi</title>
+    <script>
+        // Function to change the heading text
+        function changeText() {
+            document.getElementById("main-heading").innerText = "New Heading Text!";
+            document.getElementById("sub-heading").innerText = "This is the updated subheading.";
+        }
+
+        // Call the function after 5 seconds
+        setTimeout(changeText, 5000);
+    </script>
 </head>
 <body>
-    <h1>Testing mo to</h1>
-    <h2>Eto mas maliit na h1</h2>
+    <h1 id="main-heading">Testing mo to</h1>
+    <h2 id="sub-heading">Eto mas maliit na h1</h2>
+    <p>You will see the heading change after 5 seconds.</p>
 </body>
 </html>
